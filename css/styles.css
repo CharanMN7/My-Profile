@@ -1,21 +1,38 @@
 @font-face {
     font-family: Outfit;
-    src: url(css/fonts/Outfit-Regular.ttf);
+    src: url(fonts/Outfit-Regular.ttf);
     font-weight: normal;
 }
 
 @font-face {
     font-family: Outfit;
-    src: url(css/fonts/Outfit-Bold.ttf);
+    src: url(fonts/Outfit-Bold.ttf);
     font-weight: bold;
 }
 
 body {
     font-family: Outfit, sans-serif;
-    font-weight: normal;
+}
+
+#basics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+#profile-pic {
+    width: 150px;
+    border-radius: 75px;
+}
+
+#basics div {
+    padding: 20px;
 }
 
 #name {
-    font-family: Outfit;
+    font-size: 24px;
     font-weight: bold;
 }
